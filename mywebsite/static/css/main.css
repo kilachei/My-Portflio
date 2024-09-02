@@ -1,0 +1,29 @@
+body {
+    background-color: green;
+}
+
+.profile-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Centering vertically */
+}
+
+.profile-pic {
+    width: 150px; /* Set the size of the profile picture */
+    height: 150px; /* Ensure the height is equal to the width to maintain the circle shape */
+    border-radius: 50%; /* This makes the image circular */
+    object-fit: cover; /* Ensures the image covers the circle without stretching */
+    border: 2px solid #ddd; /* Optional: Add a border around the image */
+}
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 10px; /* Adjust spacing between icons */
+}
+
+.socials {
+    width: 24px; /* Adjust size as needed */
+    height: auto;
+}
